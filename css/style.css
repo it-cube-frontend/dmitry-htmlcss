@@ -44,3 +44,7 @@ img {
   color: var(--basic-white);
   background-color: transparent;
 }
+
+.site-navigation {
+  list-style: none;
+}
