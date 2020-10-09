@@ -157,3 +157,9 @@ img {
 .social-button:focus {
   background-color: var(--basic-white);
 }
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
