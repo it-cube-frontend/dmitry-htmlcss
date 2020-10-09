@@ -136,3 +136,13 @@ img {
   color: var(--basic-white);
   background-color: var(--basic-extra-dark);
 }
+
+.footer-contacts a {
+  color: var(--basic-white);
+  text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  text-decoration: none;
+}
