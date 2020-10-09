@@ -72,3 +72,15 @@ img {
   font-size: 30px;
   line-height: 42px;
 }
+
+/* Index columns */
+
+.index-columns {
+  color: var(--basic-black);
+  background-color: var(--basic-extra-light);
+}
+
+.index-columns h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
