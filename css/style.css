@@ -129,3 +129,10 @@ img {
 .contacts-phone {
   color: inherit;
 }
+
+/* Main footer */
+
+.main-footer {
+  color: var(--basic-white);
+  background-color: var(--basic-extra-dark);
+}
