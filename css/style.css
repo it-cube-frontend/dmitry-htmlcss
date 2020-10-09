@@ -123,3 +123,9 @@ img {
   opacity: 0.5;
   background-color: var(--basic-black);
 }
+
+/* Contacts */
+
+.contacts-phone {
+  color: inherit;
+}
