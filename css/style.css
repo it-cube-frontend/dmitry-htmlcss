@@ -146,3 +146,14 @@ img {
 .footer-contacts a:focus {
   text-decoration: none;
 }
+
+/* Social button */
+
+.social-button {
+  color: inherit;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: var(--basic-white);
+}
