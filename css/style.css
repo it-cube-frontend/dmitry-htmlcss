@@ -1,0 +1,178 @@
+:root {
+  --basic-black: #000000;
+  --basic-extra-dark: #242424;
+  --basic-dark: #aba9a7;
+  --basic-neutral: #e5e5e5;
+  --basic-extra-light: #f8f5f2;
+  --basic-white: #ffffff;
+
+  --special: #663d15;
+}
+
+/* Global */
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--basic-white);
+  text-transform: uppercase;
+  background-color: var(--basic-black);
+  background-image: url("../img/bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main navigation */
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--basic-white);
+  background-color: transparent;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: var(--basic-white);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  background-color: var(--basic-extra-dark);
+}
+
+/* Features */
+
+.features-list {
+  list-style: none;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item h3 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+/* Index columns */
+
+.index-columns {
+  color: var(--basic-black);
+  background-color: var(--basic-extra-light);
+}
+
+.index-columns h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+
+/* News */
+
+.news-list {
+  list-style: none;
+}
+
+/* Gallery */
+
+.gallery-content {
+  background-color: var(--basic-dark);
+  border: 7px solid var(--basic-white);
+}
+
+/* Button */
+
+.button {
+  font: inherit;
+  text-align: center;
+  color: var(--basic-white);
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: var(--basic-black);
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: var(--special);
+}
+
+.button.disabled,
+.button:disabled {
+  cursor: default;
+  opacity: 0.5;
+  background-color: var(--basic-black);
+}
+
+/* Contacts */
+
+.contacts-phone {
+  color: inherit;
+}
+
+/* Main footer */
+
+.main-footer {
+  color: var(--basic-white);
+  background-color: var(--basic-extra-dark);
+}
+
+.footer-contacts a {
+  color: var(--basic-white);
+  text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  text-decoration: none;
+}
+
+/* Social button */
+
+.social-button {
+  color: inherit;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: var(--basic-white);
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+/* Modal */
+
+.modal {
+  color: var(--basic-black);
+  background-color: var(--basic-extra-light);
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+}
+
+.modal-login h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
